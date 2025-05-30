@@ -26,7 +26,6 @@ DAILY_LIMIT = 25
 def check_limit():
     today = datetime.date.today()
     if st.session_state.usage["date"] != today:
-        # Reset count for new day
         st.session_state.usage["date"] = today
         st.session_state.usage["count"] = 0
 
@@ -136,7 +135,6 @@ def main():
         st.success(f"Predicted Accent: {accent}")
         st.info(f"Confidence: {confidence:.2f}")
 
-        # Clean up temp files
         cleanup_temp_dir(temp_dir)
 
 
