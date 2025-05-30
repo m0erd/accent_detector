@@ -1,0 +1,6 @@
+streamlit==1.45.1
+torch==2.7.0
+torchaudio==2.7.0
+speechbrain==1.0.3
+yt-dlp==2025.5.22
+soundfile==0.13.1
