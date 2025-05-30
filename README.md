@@ -28,7 +28,7 @@ cd accent-classifier
 
 python -m venv .venv
 source .venv/bin/activate  # Linux/macOS
-# or
+or
 .venv\Scripts\activate     # Windows
 
 3-) Install required dependencies:
